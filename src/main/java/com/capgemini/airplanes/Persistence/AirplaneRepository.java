@@ -1,0 +1,11 @@
+package com.capgemini.airplanes.Persistence;
+
+import com.capgemini.airplanes.Model.Airplane;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface AirplaneRepository extends CrudRepository<Airplane, Long> {
+
+}
+
